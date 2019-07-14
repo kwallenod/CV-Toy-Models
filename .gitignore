@@ -1,0 +1,4 @@
+build/
+CV-Toy-Models.xcodeproj/*
+.DS_Store
+data/
