@@ -184,7 +184,7 @@ int main(int argc, char* argv[]) {
         double da = atan2(T.at<double>(1, 0), T.at<double>(0, 0));
         TransParam tp(dx, dy, da);
         
-        tps[i] = tp;
+        tps.at(i) = tp;
         tj.append(tp);
     }
     
